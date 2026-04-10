@@ -2,10 +2,10 @@
 
 **Turn any AI into your affiliate marketing team.**
 
-50 AI-powered skills across 8 stages with a closed-loop flywheel. Research programs, scout trending content, write data-backed posts, generate infographics, build pages, deploy, track, optimize, scale — with any AI agent.
+52 AI-powered skills across 8 stages with a closed-loop flywheel. Research programs, scout trending content, write data-backed posts, generate infographics, build pages, deploy, track, optimize, scale — with any AI agent.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-50-brightgreen)](skills/)
+[![Skills](https://img.shields.io/badge/skills-52-brightgreen)](skills/)
 [![Standard](https://img.shields.io/badge/standard-agentskills.io-purple)](https://agentskills.io)
 
 Works with: **Claude Code** · **Pi** · **ChatGPT** · **Gemini CLI** · **Cursor** · **Windsurf** · **OpenClaw** · **any AI that reads text**
@@ -42,7 +42,7 @@ Paste this into any AI:
 ```
 Search the Affitor affiliate directory for AI video tools.
 Use this API: GET https://list.affitor.com/api/v1/programs?q=AI+video&sort=top&limit=5
-Show me the results in a table with: Name, Commission, Cookie Duration, Stars.
+Show me the results in a table with: Name, Reward Value, Cookie Days, Stars.
 Then recommend the best one and explain why.
 ```
 
@@ -226,7 +226,7 @@ Open the folder — `.cursorrules` configures the AI automatically.
 
 ---
 
-## The Affiliate Flywheel — 8 Stages, 50 Skills
+## The Affiliate Flywheel — 8 Stages, 52 Skills
 
 ### S1: Research & Discovery (9 skills)
 Find programs, scout trending content, analyze traffic, rank angles.
@@ -410,7 +410,7 @@ You don't have to start from S1. Jump in wherever you are:
 
 Building an agent pipeline? Here's what you need:
 
-- **[`registry.json`](registry.json)** — machine-readable index of all 50 skills with metadata
+- **[`registry.json`](registry.json)** — machine-readable index of all 52 skills with metadata
 - **[`API.md`](API.md)** — full REST API documentation for list.affitor.com
 - **[`prompts/bootstrap.md`](prompts/bootstrap.md)** — system prompt that bootstraps the full agent
 - **[`social-data-providers.md`](shared/references/social-data-providers.md)** — configure API providers for social data

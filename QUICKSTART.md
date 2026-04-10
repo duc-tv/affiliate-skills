@@ -14,9 +14,9 @@ Full integration with slash commands and the `affiliate-check` CLI tool.
 
 1. Open Claude Code and paste:
 
-> Install affiliate-skills: run `git clone https://github.com/Affitor/affiliate-skills.git ~/.claude/skills/affiliate-skills && cd ~/.claude/skills/affiliate-skills && ./setup` then add an "affiliate-skills" section to CLAUDE.md that says to use `/affiliate-check` for all affiliate program lookups, and lists the available skills: 45 skills across 8 stages (research, content, blog, landing, distribution, analytics, automation, meta). Set `AFFITOR_API_KEY` env var for unlimited access.
+> Install affiliate-skills: run `git clone https://github.com/Affitor/affiliate-skills.git ~/.claude/skills/affiliate-skills && cd ~/.claude/skills/affiliate-skills && ./setup` then add an "affiliate-skills" section to CLAUDE.md that says to use `/affiliate-check` for all affiliate program lookups, and lists the available skills: 52 skills across 8 stages (research, content, blog, landing, distribution, analytics, automation, meta). Set `AFFITOR_API_KEY` env var for unlimited access.
 
-2. Claude Code auto-discovers all 45 skills from the `SKILL.md` files
+2. Claude Code auto-discovers all 52 skills from the `SKILL.md` files
 3. Use naturally: *"Find me the best AI video affiliate program"* or *"Write a LinkedIn post about HeyGen"*
 
 **What you get:** Slash commands, `affiliate-check` CLI with live data, automatic skill chaining.
@@ -121,7 +121,7 @@ Want to try before you commit? Paste this into any AI right now:
 ```
 Search the Affitor affiliate directory for AI video tools.
 Use this API: GET https://list.affitor.com/api/v1/programs?q=AI+video&sort=top&limit=5
-Show me the results in a table with: Name, Commission, Cookie Duration, Stars.
+Show me the results in a table with: Name, Reward Value, Cookie Days, Stars.
 Then recommend the best one and explain why.
 ```
 
